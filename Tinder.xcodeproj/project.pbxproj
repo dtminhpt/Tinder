@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A8E12C1C21A2C300ADA36B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8E12B1C21A2C300ADA36B /* ProfileViewController.swift */; };
 		BAC09B9F1C218D16003C9C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC09B9E1C218D16003C9C8B /* AppDelegate.swift */; };
 		BAC09BA11C218D16003C9C8B /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC09BA01C218D16003C9C8B /* CardsViewController.swift */; };
 		BAC09BA41C218D16003C9C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC09BA21C218D16003C9C8B /* Main.storyboard */; };
 		BAC09BA61C218D16003C9C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC09BA51C218D16003C9C8B /* Assets.xcassets */; };
 		BAC09BA91C218D16003C9C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC09BA71C218D16003C9C8B /* LaunchScreen.storyboard */; };
-		BAC09BB11C21938C003C9C8B /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC09BB01C21938C003C9C8B /* DraggableImageView.xib */; settings = {ASSET_TAGS = (); }; };
-		BAC09BB31C219434003C9C8B /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC09BB21C219434003C9C8B /* DraggableImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		BAC09BB11C21938C003C9C8B /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC09BB01C21938C003C9C8B /* DraggableImageView.xib */; };
+		BAC09BB31C219434003C9C8B /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC09BB21C219434003C9C8B /* DraggableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A8E12B1C21A2C300ADA36B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BAC09B9B1C218D16003C9C8B /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC09B9E1C218D16003C9C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAC09BA01C218D16003C9C8B /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				BAC09BAA1C218D16003C9C8B /* Info.plist */,
 				BAC09BB01C21938C003C9C8B /* DraggableImageView.xib */,
 				BAC09BB21C219434003C9C8B /* DraggableImageView.swift */,
+				18A8E12B1C21A2C300ADA36B /* ProfileViewController.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				BAC09BA11C218D16003C9C8B /* CardsViewController.swift in Sources */,
 				BAC09BB31C219434003C9C8B /* DraggableImageView.swift in Sources */,
+				18A8E12C1C21A2C300ADA36B /* ProfileViewController.swift in Sources */,
 				BAC09B9F1C218D16003C9C8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
